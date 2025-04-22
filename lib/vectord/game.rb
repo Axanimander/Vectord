@@ -1,4 +1,5 @@
 
+module Game
   class Game < Gosu::Window
     def initialize
       @windowWidth = 640

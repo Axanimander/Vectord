@@ -1,4 +1,5 @@
 
+module Game
   class Sprite
     attr_accessor :vel, :collided, :rectangleList, :spriteRect, :pos
     def initialize(x, y, rectangleList = [])

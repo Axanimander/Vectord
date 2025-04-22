@@ -1,4 +1,5 @@
 
+module Game
   class World
     attr_accessor :spritelist
       def initialize

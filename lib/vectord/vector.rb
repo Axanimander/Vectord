@@ -1,4 +1,5 @@
 
+module Game
   class Vector
     attr_accessor :x, :y
     def initialize(x, y)
@@ -55,3 +56,4 @@
     end
 
   end
+end

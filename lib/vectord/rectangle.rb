@@ -1,4 +1,5 @@
 
+module Game
   class Rectangle
     attr_accessor :w, :h, :left, :right, :top, :bottom, :pos, :cleft, :cright, :cbottom, :ctop
     def initialize(x, y, h, w, camera)
@@ -42,3 +43,4 @@
       @camera = @pos - camera.worldpos
     end
   end
+end

@@ -1,4 +1,5 @@
 
+module Game
   class Camera
     attr_accessor :worldpos
       def initialize(world)
