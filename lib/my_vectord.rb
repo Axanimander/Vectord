@@ -1,6 +1,6 @@
-require_relative "game/core"
+require_relative "vectord/core"
 
-module Game
+module game
   game = Game::Game.new
   game.show
 end

@@ -17,3 +17,4 @@
       rect.pos = @pos + rect.pos
       @rectangleList << rect
     end
+  end
